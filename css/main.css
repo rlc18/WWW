@@ -97,6 +97,105 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{
+  font-family: 'Poppins', sans-serif;
+  color: #0250c3; 
+  font-size:60px;
+  text-align: center; 
+
+  font-weight: 900;
+  background-color: #ffe053;
+}
+
+#logo{
+
+width: 212.8px; height: 53.9px;
+}
+
+#rs{
+margin-left: 500px;
+margin-top: 200px;
+
+}
+
+#rs img{
+  margin: 12px;
+  padding: 12px;
+}
+
+#nav{
+  list-style-type: none;
+}
+
+
+#nav li a{
+color: #0250c3; 
+
+}
+
+#nav li a:hover{
+  color: rgba(0,0,0,0);
+  text-decoration: none;
+  transition: .3s ease-in-out;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #0250c3;
+}
+
+#menu{
+   list-style-type: none;
+ }
+
+#menu p a{
+color: #f24405; 
+}
+
+#menu p a:hover{
+  color: rgba(0,0,0,0);
+  text-decoration: none;
+  transition: .3s ease-in-out;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #f24405;
+
+}
+
+#flecha-i{
+  font-size: 100px;
+list-style-type: none;
+color: #0250c3;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+
+#flecha-i:hover{
+  color: rgba(0,0,0,0);
+  text-decoration: none;
+  transition: .3s ease-in-out;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #0250c3;
+}
+
+#flecha-d{
+  font-size: 100px;
+  margin-right: -600px;
+  margin-top: -250px;
+  }
+
+#flecha-d{
+list-style-type: none;
+
+}
+#flecha-d{
+color: #0250c3;
+}
+
+#flecha-d:hover{
+color: rgba(0,0,0,0);
+  text-decoration: none;
+  transition: .3s ease-in-out;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #0250c3;
+}
 
 /* ==========================================================================
    Helper classes
