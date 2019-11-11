@@ -107,6 +107,10 @@ body{
   background-color: #ffe053;
 }
 
+#contact{
+  background-color: #ffffff;
+}
+
 #logo{
 
 width: 212.8px; height: 53.9px;
@@ -187,6 +191,46 @@ color: rgba(0,0,0,0);
   -webkit-text-stroke-color: #0250c3;
 }
 
+#flecha-ci{
+  font-size: 150px;
+list-style-type: none;
+color: #0250c3;
+    position: absolute;
+    top: 200px;
+    left: 120px;
+}
+
+#flecha-ci:hover{
+  color: rgba(0,0,0,0);
+  text-decoration: none;
+  transition: .3s ease-in-out;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #0250c3;
+}
+
+#flecha-cd{
+  font-size: 150px;
+  position: absolute;
+  top: 200px;
+  right: 90px;
+  }
+
+#flecha-cd{
+list-style-type: none;
+
+}
+#flecha-cd{
+color: #0250c3;
+}
+
+#flecha-cd:hover{
+color: rgba(0,0,0,0);
+  text-decoration: none;
+  transition: .3s ease-in-out;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #0250c3;
+}
+
 #rs{
 margin-left: 500px;
 margin-top: 200px;
@@ -197,6 +241,32 @@ margin-top: 200px;
   margin: 5px;
   padding: 5px;
 
+}
+
+#menu2{
+  color: #ffe053;
+
+}
+#menu2{
+   list-style-type: none;
+ }
+
+#menu2 p a{
+color: #ffe053; 
+}
+
+#menu2 p a:hover{
+  color: rgba(0,0,0,0);
+  text-decoration: none;
+  transition: .3s ease-in-out;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #ffe053;
+
+}
+
+#rs2{
+margin-left: 500px;
+margin-top: 200px;
 }
 
 /* ==========================================================================
