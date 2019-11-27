@@ -159,10 +159,49 @@ color: #f24405;
 
 }
 
-#flecha-i{
+#flecha-ih{
   font-size: 150px;
 list-style-type: none;
 color: #0250c3;
+    position: absolute;
+    top: 220px;
+    left: 250px;
+}
+
+#flecha-ih:hover{
+  color: rgba(0,0,0,0);
+  text-decoration: none;
+  transition: .3s ease-in-out;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #0250c3;
+}
+
+#flecha-dh{
+  font-size: 150px;
+  position: absolute;
+  top: 220px;
+  right: 250px;
+  }
+
+#flecha-dh{
+list-style-type: none;
+
+}
+#flecha-dh{
+color: #0250c3;
+}
+
+#flecha-dh:hover{
+color: rgba(0,0,0,0);
+  text-decoration: none;
+  transition: .3s ease-in-out;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #0250c3;
+}
+#flecha-i{
+  font-size: 150px;
+list-style-type: none;
+color: white;
     position: absolute;
     top: 220px;
     left: 250px;
@@ -173,7 +212,7 @@ color: #0250c3;
   text-decoration: none;
   transition: .3s ease-in-out;
   -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #0250c3;
+  -webkit-text-stroke-color: white;
 }
 
 #flecha-d{
@@ -188,7 +227,7 @@ list-style-type: none;
 
 }
 #flecha-d{
-color: #0250c3;
+color: white;
 }
 
 #flecha-d:hover{
@@ -196,13 +235,13 @@ color: rgba(0,0,0,0);
   text-decoration: none;
   transition: .3s ease-in-out;
   -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #0250c3;
+  -webkit-text-stroke-color: white;
 }
 
 #flecha-ci{
   font-size: 150px;
 list-style-type: none;
-color: #0250c3;
+color: #03a65a;
     position: absolute;
     top: 200px;
     left: 120px;
@@ -213,7 +252,7 @@ color: #0250c3;
   text-decoration: none;
   transition: .3s ease-in-out;
   -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #0250c3;
+  -webkit-text-stroke-color: #03a65a;
 }
 
 #flecha-cd{
@@ -228,7 +267,7 @@ list-style-type: none;
 
 }
 #flecha-cd{
-color: #0250c3;
+color: #03a65a;
 }
 
 #flecha-cd:hover{
@@ -236,7 +275,7 @@ color: rgba(0,0,0,0);
   text-decoration: none;
   transition: .3s ease-in-out;
   -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #0250c3;
+  -webkit-text-stroke-color: #03a65a;
 }
 
 #rs{
@@ -280,7 +319,7 @@ color: #ffe053;
 
 
 #nav2 li a{
-color: #0250c3; 
+color: #03a65a; 
 
 }
 
@@ -289,7 +328,7 @@ color: #0250c3;
   text-decoration: none;
   transition: .3s ease-in-out;
   -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: #0250c3;
+  -webkit-text-stroke-color: #03a65a;
   
 }
 
@@ -357,10 +396,12 @@ color: #0250c3;
 }
 
 #nombre{
+	color: white;
   margin-top: -70px;
 }
 
 #aboutme{
+	color: white;
 	font-size: 30px;
   text-align: center;
 
