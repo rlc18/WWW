@@ -431,6 +431,34 @@ color: #0250c3;
   
 }
 
+.masonry-grid img{
+  width: 100%;
+  max-width: 100%;
+  margin:2px;
+  padding: 22px;
+  opacity: 95%;
+
+}
+
+.masonry-grid p{
+ font-family: 'Source Code Pro'; 
+margin-left: 250px;
+
+}
+
+
+.masonry-grid{
+  margin-bottom: 100px;
+} 
+
+.masonry-column {
+  padding: 0;
+}
+
+.masonry-grid > div .thumbnail {
+  margin: 0;
+}
+
 
 
 
